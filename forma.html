@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prijavni formular</title>
+  <link rel="stylesheet" href="styles/forma.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+  <form id = "Forma">
+    <label for="fname">Ime:</label>
+    <input type="text" id="fname" name="fname" placeholder = "Upisi tvoje ime" required><br>
+    <label for="lname">Prezime:</label>
+    <input type="text" id="lname" name="lname"  placeholder = "Upisi tvoje prezime" required><br>
+    <label for="email" required>Email adresa:</label>
+    <input type="email" id="email" name="email" placeholder = "primer@gmail.com" required><br>
+    <br>
+    <br>
+    <label for = "Edukacija">Nivo edukacije</label>
+    <select class="EdukacijaSelekcija" id= "Edukacija" name="Edukacija">
+      <optgroup label="Osnovna">
+        <option>I razred</option>
+        <option>II razred</option>
+        <option>III razred</option>
+        <option>IV razred</option>
+        <option>V razred</option>
+        <option>VI razred</option>
+        <option>VII razred</option>
+        <option>VIII razred</option>
+      </optgroup>
+      <optgroup label="Srednja">
+        <option>1. godina</option>
+        <option>2. godina</option>
+        <option>3. godina</option>
+        <option>4. godina</option>
+      </optgroup>
+      <optgroup label="Fakultet">
+        <option>1. godina</option>
+        <option>2. godina</option>
+        <option>3. godina</option>
+        <option>4. godina</option>
+      </optgroup>
+
+    </select>
+
+    <br><br>
+    <label for="birthday">Datum rodjenja:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br><br><br><br>
+    <label for="Izbor">Dostupni instrumenti u skoli:</label>
+    <br><br>
+    <img class = "GitaraSlika" src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png"><br>
+    <input type="checkbox" class = "instrument1" id="Gitara" name="Instrument" value="Instrument" >
+    <label for="Gitara">Zelim da ucim gitaru</label><br>
+    <img class = "BubanjSlika" src="images/Platin_Drums_PTCL2016_AF.png" alt="Slika Bubnja"><br>
+    <input type="checkbox" class = "instrument2" id="Bubanj" name="Instrument" value="Instrument" >
+    <label class = "Bubanj" for="Bubanj">Zelim da ucim bubanj</label><br>
+    <br>
+    <br>
+  <button type ="submit" id="dugme-potvrdi" class="btn1" onclick="alert">Prihvati</button>
+</form>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="javascript\script.js" charset="utf-8"></script>
+</body>
+
+
+
+</html>

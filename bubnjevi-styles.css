@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+  text-align: center;
+  background-image: linear-gradient(144deg,#0D4C92, #0D4C92 50%,#00DDEB);
+}
+
+h1 {
+  font-size: 5rem;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+p{
+  font-size: 1.5rem;
+  color:black;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.w {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/tom1.png");
+}
+
+.a {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/tom2.png");
+}
+
+.s {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/tom3.png");
+}
+
+.d {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/tom4.png");
+}
+
+.j {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/snare.png");
+}
+
+.k {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/crash.png");
+}
+
+.l {
+  background-image: url("C:/Users/PC/Desktop/DomaciEpos/images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 4rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  color: #96e6a1;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  text-align: center;
+}i{
+  padding-right:5px;
+}
+.footer{
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-decoration: none;
+}
+.footer >a{
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.topnav {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f0g2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.topnav a:hover {
+  background-color: #d4fc79;
+  color: black;
+  font-family: 'Barlow', sans-serif;
+}
+
+
+.topnav .active {
+  float: left;
+  background-color: #d4fc79;
+  color: black;
+
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
